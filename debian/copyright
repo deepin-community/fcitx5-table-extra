@@ -1,10 +1,104 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: fcitx5-table-extra
+Upstream-Contact: Xuetian Weng <wengxt@gmail.com>
+Source: https://download.fcitx-im.org/fcitx5/fcitx5-table-extra/
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
+Copyright: 2012-2023 Xuetian Weng <wengxt@gmail.com>
+License: GPL-3.0-or-later
+Comment:
+ ## Upstream statement
+ This package has the same license condition as src:fcitx-table-extra.
+ As in README file, upstream states that all related patents have expired:
+ .
+  Zhengma's patent is expired at 2009. [1]
+  Boshiamy's patent is expired at 2003.11.11. [2]
+  Cangjie's author drop Cangjie's patent in 1982. [3]
+ .
+  The code of this package are released under GPLv3 or later.
+ .
+  All the data file is now in public domain.
+ .
+  [1] http://211.157.104.87:8080/sipo/zljs/hyjs-yx-new.jsp?recid=CN89108851.2&leixin=fmzl&title=%D7%D6%B8%F9%B1%E0%C2%EB%CA%E4%C8%EB%B7%A8%BC%B0%C6%E4%C9%E8%B1%B8&ipc=G06F3/023
+  [2] http://twpat6.tipo.gov.tw/tipotwoc/tipotwkm?00545097BFC6010100000000000100A000000041000000000^A14^076103932
+  [3] http://en.wikipedia.org/wiki/Cangjie_input_method
+ .
+ ## Debian audit
+ A previous audit in files' license condition was done in 2012:
+ Ref: https://sources.debian.org/src/fcitx-table-extra/0.3.8-3/debian/README.source/
+ .
+  fcitx-table-extra for Debian
+  ----------------------------
+ .
+  There are several data files in this source package, the license of
+  them might be something confusing many people. These data files were
+  having their patents, but they were either released by the original
+  author (and the patent holder) into Public Domain (Cangjie), or the
+  patents had expired for several years. We are providing clean-room
+  re-generated data files using their ideas (which is not copyrightable,
+  and obviously not infringing expired patents).
+ .
+   * Array*: released to public domain by original authoer
+     - Ref (Chinese): http://www.array.com.tw/BOX/BOX5.htm
+   * Boshiamy: 122588, expected to be expired in 2003, but actually
+     expired in 1992 because of not paying patent fees for more than
+     six months.
+     - Ref (Chinese): http://terryhung.pixnet.net/blog/post/24973556
+   * Cangjie*: 027984, expired in 1989, released to public domain by
+     original author in 1982.
+     - Ref (Chinese): http://cbflabs.com/?id=12
+   * Easy: GPL-2+, also referenced in debian/copyright
+     - Ref (Chinese): http://homepage.mac.com/eshen/ez/ezgpl.html
+   * Jyutping: Public Domain, developed and released by Linguistic
+     Society of Hong Kong (LSHK) in 1993.
+     - Ref (Chinese): http://www.lshk.org/cantonese.php
+   * Quick*: directly derived from Cangjie* and put into Public Domain.
+   * scj6: GPL-3, also referenced in debian/copyright
+     - Ref: http://download.scj2000.net/src/COPYING
+   * Stroke5: GPL-2+, also referenced in debian/copyright
+     - Ref: http://code.google.com/p/ibus/wiki/ChineseTableLicenseAuditing
+   * Wu: GPL-2+, also referenced in debian/copyright
+     - Ref: http://input.foruto.com/wu/index.html
+   * Zhengma: CN1043210 (89108851.2), expired in 2009.
+     - Ref (Chinese): http://www.china-e.com.cn/main/zhengma/jj.htm
+ .
+   Clean room implementation of common tables:
+   http://qiangheng.openfoundry.org
+ .
+   Reference:
+   1.http://www.angelfire.com/mn/10key/patents.html
+     (BIG-5 encoded Chinese and English text)
+   2.http://code.google.com/p/ibus/wiki/ChineseTableLicenseAuditing
+     (outdated on expiration info)
+ .
+  -- Aron Xu <aron@debian.org>  Tue, 04 May 2012 00:39:30 +0800
+
+Files: debian/*
+Copyright: 2021 Lu YaNing <dluyaning@gmail.com>
+License: GPL-2.0-or-later
+
+Files: org.fcitx.Fcitx5.Addon.TableExtra.metainfo.xml.in
+Copyright:
+ 2012-2022 Xuetian Weng <wengxt@gmail.com>
+License: CC0-1.0
+
+Files: tables/easy-large.txt
+Copyright: 1999 輕鬆輸入法之家
+License: GPL-2.0-or-later
+
+Files: tables/wu.txt
+Copyright: 2004-2006 Zeng XioCiung and others
+License: GPL-2.0-or-later
+
+Files: tables/stroke5.txt
+Copyright: Hong Kong Seniors IT Advocates
+License: GPL-2.0-or-later
+
+Files: tables/scj6.txt
+Copyright: 麥志洪
+License: GPL-3.0-only
+
+License: GPL-2.0-or-later
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
@@ -20,3 +114,40 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3.0-or-later
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: GPL-3.0-only
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3 of the License.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: CC0-1.0
+ On Debian systems, the full text of the CC0 1.0 Universal
+ License can be found in the file `/usr/share/common-licenses/CC0-1.0'.
