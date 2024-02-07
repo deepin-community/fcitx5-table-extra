@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fcitx5-table-extra package.
+#
+# Translators:
+# csslayer <wengxt@gmail.com>, 2020
+# Dmitry <dmitrydmitry761@gmail.com>, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fcitx5-table-extra\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2024-01-05 20:25+0000\n"
+"PO-Revision-Date: 2020-09-13 02:40+0000\n"
+"Last-Translator: Dmitry <dmitrydmitry761@gmail.com>, 2024\n"
+"Language-Team: Russian (https://app.transifex.com/fcitx/teams/12005/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: org.fcitx.Fcitx5.Addon.TableExtra.metainfo.xml.in:8
+msgid "Additional Table based Chinese input method"
+msgstr "Дополнительный метод ввода на китайском языке в виде таблицы"
+
+#: tables/array30.conf.in:3
+msgid "Array30"
+msgstr "Array30"
+
+#: tables/array30-large.conf.in:3
+msgid "Array30 Large"
+msgstr "Array30 Большая коллекция символов"
+
+#: tables/boshiamy.conf.in:3
+msgid "Boshiamy"
+msgstr "Бошиами"
+
+#: tables/cangjie-large.conf.in:3
+msgid "Cangjie Large"
+msgstr "Большая коллекция символов Цанцзе"
+
+#: tables/cangjie3.conf.in:3
+msgid "Cangjie3"
+msgstr "Цанцзе3"
+
+#: tables/cangjie5.conf.in:3
+msgid "Cangjie5"
+msgstr "Цанцзе5"
+
+#: tables/cantonhk.conf.in:3
+msgid "CantonHK"
+msgstr "CantonHK — Кантонский диалект в гонконгском стиле"
+
+#: tables/cantonese.conf.in:3
+msgid "Cantonese Pinyin"
+msgstr "Кантонский Пиньинь"
+
+#: tables/easy-large.conf.in:3
+msgid "Easy Large"
+msgstr "Easy Large"
+
+#: tables/jyutping-table.conf.in:3
+msgid "Jyutping Table"
+msgstr "Jyutping Table — Кодовая таблица Ютпхин"
+
+#: tables/quick-classic.conf.in:3
+msgid "Quick Classic"
+msgstr "Quick Classic"
+
+#: tables/quick3.conf.in:3
+msgid "Quick3"
+msgstr "Quick3"
+
+#: tables/quick5.conf.in:3
+msgid "Quick5"
+msgstr "Quick5"
+
+#: tables/scj6.conf.in:3
+msgid "SmartCangJie6"
+msgstr "SmartCangJie6"
+
+#: tables/stroke5.conf.in:3
+msgid "Stroke5"
+msgstr "Stroke5"
+
+#: tables/t9.conf.in:3
+msgid "T9 (Stroke)"
+msgstr "T9 (Stroke)"
+
+#: org.fcitx.Fcitx5.Addon.TableExtra.metainfo.xml.in:7
+msgid "Table Extra"
+msgstr "Table Extra — Дополнительная кодовая таблица"
+
+#: tables/wu.conf.in:3
+msgid "Wu"
+msgstr "Фонетическое письмо У"
+
+#: tables/wubi-large.conf.in:3
+msgid "Wubi (Large)"
+msgstr "Уби (Большая коллекция символов)"
+
+#: tables/wubi98.conf.in:3
+msgid "Wubi 98"
+msgstr "Уби 98"
+
+#: tables/wubi98-pinyin.conf.in:3
+msgid "Wubi 98 Pinyin"
+msgstr "Уби 98 Пиньинь"
+
+#: tables/wubi98-single.conf.in:3
+msgid "Wubi 98 Single"
+msgstr "Уби 98 слов"
+
+#: tables/wubi98-large.conf.in:3
+msgid "Wubi 98 large"
+msgstr "Уби 98 Большая коллекция символов"
+
+#: tables/zhengma.conf.in:3 tables/zhengma.conf.in:11
+msgid "Zhengma"
+msgstr "Чжэнма"
+
+#: tables/zhengma-large.conf.in:3
+msgid "Zhengma (Large)"
+msgstr "Чжэнма (большой набор)"
+
+#: tables/zhengma-pinyin.conf.in:3
+msgid "ZhengmaPinyin"
+msgstr "ЧжэнмаПиньинь"

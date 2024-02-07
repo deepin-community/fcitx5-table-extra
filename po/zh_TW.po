@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fcitx5-table-extra package.
+#
+# Translators:
+# csslayer <wengxt@gmail.com>, 2021
+# Steve Nian, 2022
+# Lau YeeYu, 2024
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fcitx5-table-extra\n"
+"Report-Msgid-Bugs-To: fcitx-dev@googlegroups.com\n"
+"POT-Creation-Date: 2024-01-04 20:25+0000\n"
+"PO-Revision-Date: 2020-09-13 02:40+0000\n"
+"Last-Translator: Lau YeeYu, 2024\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/fcitx/teams/12005/"
+"zh_TW/)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: org.fcitx.Fcitx5.Addon.TableExtra.metainfo.xml.in:8
+msgid "Additional Table based Chinese input method"
+msgstr "額外基於字碼表格的中文輸入法"
+
+#: tables/array30.conf.in:3
+msgid "Array30"
+msgstr "行列30"
+
+#: tables/array30-large.conf.in:3
+msgid "Array30 Large"
+msgstr "行列30大字集"
+
+#: tables/boshiamy.conf.in:3
+msgid "Boshiamy"
+msgstr "嘸蝦米"
+
+#: tables/cangjie-large.conf.in:3
+msgid "Cangjie Large"
+msgstr "倉頡大字集"
+
+#: tables/cangjie3.conf.in:3
+msgid "Cangjie3"
+msgstr "倉頡第三代"
+
+#: tables/cangjie5.conf.in:3
+msgid "Cangjie5"
+msgstr "倉頡第五代"
+
+#: tables/cantonhk.conf.in:3
+msgid "CantonHK"
+msgstr "港式廣東話"
+
+#: tables/cantonese.conf.in:3
+msgid "Cantonese Pinyin"
+msgstr "廣東拼音"
+
+#: tables/easy-large.conf.in:3
+msgid "Easy Large"
+msgstr "Easy 大字集"
+
+#: tables/jyutping-table.conf.in:3
+msgid "Jyutping Table"
+msgstr "粵拼表格"
+
+#: tables/quick-classic.conf.in:3
+msgid "Quick Classic"
+msgstr "速成經典版"
+
+#: tables/quick3.conf.in:3
+msgid "Quick3"
+msgstr "速成第三代"
+
+#: tables/quick5.conf.in:3
+msgid "Quick5"
+msgstr "速成第五代"
+
+#: tables/scj6.conf.in:3
+msgid "SmartCangJie6"
+msgstr "快速倉頡第六代"
+
+#: tables/stroke5.conf.in:3
+msgid "Stroke5"
+msgstr "筆順五碼"
+
+#: tables/t9.conf.in:3
+msgid "T9 (Stroke)"
+msgstr "T9 (筆畫)"
+
+#: org.fcitx.Fcitx5.Addon.TableExtra.metainfo.xml.in:7
+msgid "Table Extra"
+msgstr "額外表格"
+
+#: tables/wu.conf.in:3
+msgid "Wu"
+msgstr "吳語註音法"
+
+#: tables/wubi-large.conf.in:3
+msgid "Wubi (Large)"
+msgstr "五筆大字集"
+
+#: tables/wubi98.conf.in:3
+msgid "Wubi 98"
+msgstr "五筆98"
+
+#: tables/wubi98-pinyin.conf.in:3
+msgid "Wubi 98 Pinyin"
+msgstr "五筆98拼音"
+
+#: tables/wubi98-single.conf.in:3
+msgid "Wubi 98 Single"
+msgstr "五筆98單字"
+
+#: tables/wubi98-large.conf.in:3
+msgid "Wubi 98 large"
+msgstr "五筆98大字集"
+
+#: tables/zhengma.conf.in:3 tables/zhengma.conf.in:11
+msgid "Zhengma"
+msgstr "鄭碼"
+
+#: tables/zhengma-large.conf.in:3
+msgid "Zhengma (Large)"
+msgstr "鄭碼大字集"
+
+#: tables/zhengma-pinyin.conf.in:3
+msgid "ZhengmaPinyin"
+msgstr "鄭碼拼音"

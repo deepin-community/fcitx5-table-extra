@@ -1,15 +1,557 @@
-Source: template-repository
-Section: unknown
+Source: fcitx5-table-extra
+Section: utils
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders:
+ Boyuan Yang <byang@debian.org>,
+Build-Depends:
+ cmake,
+ debhelper-compat (= 13),
+ extra-cmake-modules,
+ libboost-dev,
+ libfcitx5core-dev,
+ libfcitx5utils-dev,
+ libime-bin,
+ libimecore-dev,
+ libimetable-dev,
+Standards-Version: 4.6.2
+Homepage: https://github.com/fcitx/fcitx5-table-extra
+Vcs-Git: https://salsa.debian.org/input-method-team/fcitx5-table-extra.git
+Vcs-Browser: https://salsa.debian.org/input-method-team/fcitx5-table-extra
+Rules-Requires-Root: no
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: fcitx5-table-array30
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-array30,
+Description: Flexible Input Method Framework v5 - Array30 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Array30 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-array30-large
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-array30-big,
+Description: Flexible Input Method Framework v5 - Array30-Large table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Array30-Large table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-boshiamy
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-boshiamy,
+Description: Flexible Input Method Framework v5 - Boshiamy table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Boshiamy table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-cangjie-large
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Cangjie-Large table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cangjie-Large table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-cangjie3
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-cangjie3,
+Description: Flexible Input Method Framework v5 - Cangjie3 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cangjie3 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-cangjie5
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-cangjie5,
+Description: Flexible Input Method Framework v5 - Cangjie5 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cangjie5 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-cantonese
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-cantonese,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Cantonese table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cantonese table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-cantonhk
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-cantonhk,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Cantonhk table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cantonhk table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-easy-large
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Easy-Large table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Easy-Large table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-extra
+Architecture: all
+Section: metapackages
+Depends:
+ ${misc:Depends},
+Recommends:
+ fcitx5-table-array30,
+ fcitx5-table-array30-large,
+ fcitx5-table-boshiamy,
+ fcitx5-table-cangjie-large,
+ fcitx5-table-cangjie3,
+ fcitx5-table-cangjie5,
+ fcitx5-table-cantonese,
+ fcitx5-table-cantonhk,
+ fcitx5-table-easy-large,
+ fcitx5-table-jyutping,
+ fcitx5-table-quick-classic,
+ fcitx5-table-quick3,
+ fcitx5-table-quick5,
+ fcitx5-table-scj6,
+ fcitx5-table-stroke5,
+ fcitx5-table-t9,
+ fcitx5-table-wu,
+ fcitx5-table-wubi-large,
+ fcitx5-table-wubi98,
+ fcitx5-table-wubi98-pinyin,
+ fcitx5-table-wubi98-single,
+ fcitx5-table-zhengma,
+ fcitx5-table-zhengma-large,
+ fcitx5-table-zhengma-pinyin,
+Description: Additional table based input method for Fcitx 5
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This metapackage recommends all additional table based input methods provided
+ by fcitx5-table-extra project.
+
+Package: fcitx5-table-jyutping
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-jyutping,
+Description: Flexible Input Method Framework v5 - Jyutping table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Jyutping table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-quick-classic
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-quick-classic,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Quick-Classic table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Quick-Classic table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-quick3
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-quick3,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Quick3 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Quick3 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-quick5
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-quick5,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Quick5 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Quick5 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-scj6
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-scj6,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Scj6 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Scj6 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-stroke5
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-stroke5,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Stroke5 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Stroke5 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-t9
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-t9,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - T9 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides T9 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-wu
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-wu,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Wu table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Wu table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-wubi-large
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Wubi-Large table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Wubi-Large table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-wubi98
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Provides:
+ fcitx5-table-wubi98-large,
+Description: Flexible Input Method Framework v5 - Wubi98 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Wubi98 table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-wubi98-pinyin
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Wubi98-Pinyin table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Wubi98-Pinyin table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-wubi98-single
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Wubi98-Single table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Wubi98-Single table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-zhengma
+Architecture: all
+Multi-Arch: foreign
+Conflicts:
+ fcitx-table-zhengma,
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Zhengma table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Zhengma table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-zhengma-large
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Conflicts:
+ fcitx-table-zhengma-large,
+Description: Flexible Input Method Framework v5 - Zhengma-Large table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Zhengma-Large table used by the Fcitx5 table engine.
+
+Package: fcitx5-table-zhengma-pinyin
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ fcitx5-table,
+ ${misc:Depends},
+Description: Flexible Input Method Framework v5 - Zhengma-Pinyin table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems.
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ and Qt IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Zhengma-Pinyin table used by the Fcitx5 table engine.
