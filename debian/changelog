@@ -1,3 +1,9 @@
+fcitx5-table-extra (5.1.3-1deepin2) unstable; urgency=medium
+
+  * Merge some normal using words into wubi98 tables.
+
+ -- re2zero <yangwu@uniontech.com>  Tue, 23 Sep 2025 21:28:11 +0800
+
 fcitx5-table-extra (5.1.3-1deepin1) unstable; urgency=medium
 
   * add cangjie-large table.
