@@ -1,2 +1,3 @@
+extend-wubi-large-table.patch
 merge-sg-table-to-wubi98.patch
 update-cangjie-large-table.patch
